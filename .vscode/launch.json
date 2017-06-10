@@ -8,7 +8,7 @@
             "stopOnEntry": true,
             "console": "internalConsole",
             "cwd": "${workspaceRoot}",
-            "program": "${workspaceRoot}/src/Hello.ts",
+            "program": "${workspaceRoot}/src/module2.ts",
             "outFiles": ["${workspaceRoot}/dest/*.js"]
         },
         {
