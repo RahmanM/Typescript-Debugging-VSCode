@@ -4,7 +4,7 @@ configurations to debug typescript in VSCode using Node - no website etc
 The following configurations are required to get it working:
 
 # tsconfig.json:
-
+```
 {
     "version": "0.2.0",
     "configurations": [{
@@ -66,5 +66,6 @@ The following configurations are required to get it working:
     "showOutput": "always",
     "problemMatcher": "$tsc-watch"
 }
+```
 
 Also, the directory structure of /src and /dest is required.
